@@ -1,4 +1,5 @@
 # robot-camera-web-viewer
+[![web-api-docker-build-workflow-00](https://github.com/smart-security-robot/robot-camera-web-viewer/actions/workflows/docker-image.yml/badge.svg)](https://github.com/smart-security-robot/robot-camera-web-viewer/actions/workflows/docker-image.yml)
 A flask app to stream a camera of choice through a webapp
 ![Webapp Screenshot](./static/ecasp_logo.png)
 ![Webapp Screenshot](./static/iit_logo.png)
