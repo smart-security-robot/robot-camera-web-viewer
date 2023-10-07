@@ -1,9 +1,8 @@
 # robot-camera-web-viewer
 A flask app to stream a camera of choice through a webapp
-
-![Webcam Streaming Screenshot](screenshot.png)
-
-_Replace `screenshot.png` with an actual screenshot of your application if desired._
+![Webapp Screenshot](./static/ecasp_logo.png)
+![Webapp Screenshot](./static/iit_logo.png)
+![Webapp Screenshot](./static/webapp_screenshot.png)
 
 ## Prerequisites
 
@@ -22,19 +21,19 @@ _Replace `screenshot.png` with an actual screenshot of your application if desir
 
 2. Navigate to the project's root directory:
 
-        ```bash
+        ```
         cd robot-camera-web-viewer
         ```
 
 3. Install the dependencies:
 
-        ```bash
+        ```
         pip install -r requirements.txt
         ```
 
 4. Run the app:
 
-        ```bash
+        ```
         python app.py
         ```
 
@@ -44,15 +43,19 @@ _Replace `screenshot.png` with an actual screenshot of your application if desir
 
 1. Build the Docker image:
 
-        ```bash
+        ```
         docker build -t robot-camera-web-viewer .
         ```
 
 2. Run the Docker container (Linux Only):
 
-        ```bash
+        ```
         docker run -p 5000:5000 --device=/dev/video0:/dev/video0 robot-camera-web-viewer
         ```
 
 3. Open http://localhost:5000 in a web browser.
-            
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

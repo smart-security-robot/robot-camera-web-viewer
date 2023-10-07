@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webcam Stream</title>
+    <title>Autonomous Security Patrolling Sentinel</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Webcam Stream</h1>
+        <div class="header">
+            <img src="{{ url_for('static', filename='iit_logo.png') }}" alt="IIT Logo" class="logo">
+            <img src="{{ url_for('static', filename='ecasp_logo.png') }}" alt="ECASP Lab Logo" class="logo">
+            <h1>Autonomous Security Patrolling Sentinel</h1>
+            <p>Illinois Institute of Technology - ECASP Lab</p>
+        </div>
         <img src="{{ url_for('video_feed') }}" class="video-feed" alt="Webcam feed">
     </div>
 </body>

@@ -25,3 +25,19 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    max-height: 50px; /* Adjust based on your preference */
+    margin: 0 10px;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-weight: lighter;
+    font-size: 0.9em;
+}
