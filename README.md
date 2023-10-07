@@ -14,25 +14,21 @@ A flask app to stream a camera of choice through a webapp
 ### Running the app locally
 
 1. Clone this repository:
-    
-        ```bash
+        ```
         git clone 'https://github.com/smart-security-robot/robot-camera-web-viewer'
         ```
 
 2. Navigate to the project's root directory:
-
         ```
         cd robot-camera-web-viewer
         ```
 
 3. Install the dependencies:
-
         ```
         pip install -r requirements.txt
         ```
 
 4. Run the app:
-
         ```
         python app.py
         ```
@@ -42,13 +38,11 @@ A flask app to stream a camera of choice through a webapp
 ### Running the app in a Docker container
 
 1. Build the Docker image:
-
         ```
         docker build -t robot-camera-web-viewer .
         ```
 
 2. Run the Docker container (Linux Only):
-
         ```
         docker run -p 5000:5000 --device=/dev/video0:/dev/video0 robot-camera-web-viewer
         ```
